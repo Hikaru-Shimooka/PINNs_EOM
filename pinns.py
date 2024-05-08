@@ -6,6 +6,7 @@ import time
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
+# initial condition
 x0 = 0
 k = 0.1
 g = 9.8
@@ -84,6 +85,9 @@ def weight_init(m):
 
 
 def gradient(outputs, inputs):
+    """
+    calculate gradient
+    """
     return torch.autograd.grad(
         outputs, inputs,
         grad_outputs=torch.ones_like(outputs), create_graph=True)
