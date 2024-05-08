@@ -210,7 +210,7 @@ while True:
         print('{:.2f}秒'.format(cal_time), end='')
         print(', 学習回数:{}回, 進捗:['.format(it), end='')
         print('#'*int(cal_time), end='')
-        print('*'*(limit_time-int(cal_time)), end='')
+        print('-'*(limit_time-int(cal_time)), end='')
         print('], {:.0f}%'.format(100*cal_time/limit_time))
 
 x = (m/k)*vx0*(1-np.exp(-(k*t/m)))
