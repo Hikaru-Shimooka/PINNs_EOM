@@ -8,6 +8,14 @@ import time
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
+# seed setting
+seed = 0
+np.random.seed(seed)
+np.random.seed(seed)
+torch.manual_seed(seed)
+torch.backends.cudnn.benchmark = False
+torch.backends.cudnn.deterministic = True
+
 # initial condition
 x0 = 0
 k = 0.1
@@ -113,7 +121,6 @@ model = Model(layer_list)
 model.apply(weight_init)
 model.to(device)
 
-max_it = 10000
 optimizer = torch.optim.Adam(model.parameters(), lr=1e-2)
 limit_time = 30
 
