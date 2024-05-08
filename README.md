@@ -10,7 +10,7 @@ This code has been tested and verified to work with the following versions.
 
 ## 利用方法 (Usage)
 ```
-$ python train.py
+$ python pinns.py
 ```
 
 ## 参考文献 (Reference)
