@@ -234,7 +234,7 @@ else:
     print('精度：{:.3f}%'.format(100*ave_r2))
 
 plt.plot(x_pred, y_pred, label='pred')
-plt.plot(x, y, label='exact')
+plt.plot(x, y, label='exact', linestyle="dashed")
 plt.legend()
 plt.show()
 
