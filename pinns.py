@@ -13,11 +13,11 @@ x0 = 0
 k = 0.1
 g = 9.8
 m = 1
-y0 = 10
-vx0 = 5
-vy0 = 5
+y0 = 2
+vx0 = 20
+vy0 = 20
 t0 = 0
-t_end = 5
+t_end = 3
 t_num = 100
 
 t_ic_train = np.array([[t0]])
