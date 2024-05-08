@@ -9,7 +9,6 @@ This code has been tested and verified to work with the following versions.
 - [PyTorch 1.12.1](https://pytorch.org/get-started/previous-versions/)
 
 ## 利用方法 (Usage)
-以下のコマンドを実行する。
 ```
 $ python train.py
 ```
