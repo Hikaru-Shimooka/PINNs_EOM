@@ -15,4 +15,4 @@ $ python train.py
 
 ## 参考文献 (Reference)
 - PINNs [M. Raissi, P. Perdikaris, G.E. Karniadakis, Journal of Computational Physics, Volume 378, 2019](https://www.sciencedirect.com/science/article/abs/pii/S0021999118307125)
-- コード <https://github.com/kimy-de/HFM>
+- コード(code) <https://github.com/kimy-de/HFM>
